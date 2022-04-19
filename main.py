@@ -55,7 +55,7 @@ def main():
         print(s, " got: ", result," expected: " + str(expected_results[i]))
         assert(result == expected_results[i])
         i += 1
-
+      
     print("=========== Testing cipher method ===========")
     expected_results = ["tyepcpdetyr", "iizldizs", "ddd", "kosyeKOSYE", "z a b c d e f g h i j k l m n o p q r s t u v w x y", ""]
     i = 0
